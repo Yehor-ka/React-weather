@@ -35,7 +35,7 @@ export const Popup = (props: Props) => {
     ];
     
     return (
-        <>
+        <div style={{display:'none'}}>
             <div className={s.blur}></div>
             <div className={s.popup}>
                 <div className={s.day}>
@@ -63,6 +63,6 @@ export const Popup = (props: Props) => {
                     <GlobalSvgSelector id="close" />
                 </div>
             </div>
-        </>
+        </div>
     )
 }
